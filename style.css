@@ -1,0 +1,53 @@
+.header{
+    display: inline-block;
+    padding: 10px 0px;
+    background-color: brown;
+    border-bottom: 3px black solid;
+    margin: 0px 0px 20px 0px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#left{
+    margin-right: -10px;
+}
+#right{
+    margin-left: -10px;
+}
+
+#master {
+    text-align: center;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: blanchedalmond;
+    padding-bottom: 40px;
+    border: 3px black solid;
+    margin: 0% 10% 0% 10%;
+}   
+
+.memeBox{
+    background-color: aqua;
+    margin: 20px 20px;
+    padding: 20px;
+    border: 3px black solid;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+html {
+    background-color:rgb(43, 156, 152);
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
